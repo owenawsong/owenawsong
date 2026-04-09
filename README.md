@@ -1,143 +1,213 @@
 
-<div align="center">
+<!-- ============================================================ -->
+<!--  OWEN SONG — owenawsong                                     -->
+<!-- ============================================================ -->
 
-<br>
+<!-- ANIMATED WAVE HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1a2e,80:0d2137,100:0a1628&height=220&section=header&text=owen%20song&fontSize=65&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=//+building+things+in+the+dark&descAlignY=62&descSize=17&descColor=8b949e"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=52&duration=3000&pause=6000&color=58A6FF&center=true&vCenter=true&transparent=true&width=700&lines=owen+song)](https://git.io/typing-svg)
+<!-- TYPING ANIMATION -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=580&lines=AI+browser+agent+builder+%E2%9A%99%EF%B8%8F;TypeScript+%2B+Python+developer;teaching+AIs+to+teach+%F0%9F%A4%96;hit+me+on+discord%3A+b111ue;i+do+random+stuff+when+i+got+time+%F0%9F%8C%91" alt="Typing SVG" />
+</p>
 
-<br>
+<br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=1000&color=8B949E&center=true&vCenter=true&transparent=true&width=700&lines=builds+AI+tools+nobody+asked+for;ships+code+at+2am;typescript+%2B+python+%2B+vibes;discord+bot+architect;if+it+compiles%2C+ship+it;teaching+AIs+to+teach)](https://git.io/typing-svg)
-
-<br>
-
----
-
-<br>
+<!-- ─── ABOUT + ASCII ART ──────────────────────────────────── -->
+<table align="center" width="92%" border="0">
+<tr>
+<td width="55%" valign="top">
 
 ```bash
-owen@github
-───────────────────────────────
-$ whoami
-  └ Owen Song  ·  he/him
-
-$ cat about.txt
-  └ builds AI-powered things
-  └ TypeScript + Python enjoyer
-  └ discord bot architect
-  └ random project goblin
-
-$ echo $CONTACT
-  └ discord → b111ue
+╭─ owen@github ───────────────────────────╮
+│                                         │
+│  $ whoami                               │
+│    ↳ Owen Song  ·  he/him               │
+│                                         │
+│  $ cat about.txt                        │
+│    ↳ builds AI-powered things           │
+│    ↳ TypeScript + Python enjoyer        │
+│    ↳ discord bot architect              │
+│    ↳ random project goblin              │
+│                                         │
+│  $ echo $CONTACT                        │
+│    ↳ discord  →  b111ue                 │
+│    ↳ github   →  owenawsong             │
+│                                         │
+│  $ ls ~/current                         │
+│    Harbor/   mr-tutor/   side-quests/   │
+│                                         │
+│  $ █                                    │
+╰─────────────────────────────────────────╯
 ```
 
-<br>
-
----
-
-<br>
-
-**tech stack**
-
-<br>
-
-[[Skills](https://skillicons.dev/icons?i=ts,py,js,html,nodejs,vscode,git&theme=dark)](https://skillicons.dev)
-
-<br>
-
----
-
-<br>
-
-**featured projects**
-
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Harbor](https://github.com/owenawsong/Harbor)**
-
-An AI browser agent that completes tasks for you — at the comfort of an extension.
-
-`lang` — TypeScript
-`type` — AI Browser Agent
-`status` — [active](https://img.shields.io/badge/active-58A6FF?style=flat-square&labelColor=0d1117)
-
 </td>
-<td width="50%" valign="top">
+<td width="45%" align="center" valign="middle">
 
-**[mr-tutor-discord-bot](https://github.com/owenawsong/mr-tutor-discord-bot)**
+```
+   *    .       *      .    *      .
+       .    *       .          *
+  .        ___*___        .        .
+      *   / __|__ \    *
+  .      / / | \ \         .    *
+    *   / /  |  \ \    .
+    .  /__\  |  /__\        *
+      /____\ | /____\   .
+  *  /______\|/______\       .
+    ══════════════════════
+    ░░░░░░░░░░░░░░░░░░░░░░
+  
+   dark skies · bright commits
+```
 
-Advanced discord bot that uses AI models to be the perfect tutor for any occasion.
+*"i do random stuff when i got time"*
 
-`lang` — Python
-`type` — Discord Bot + AI
-`status` — [active](https://img.shields.io/badge/active-58A6FF?style=flat-square&labelColor=0d1117)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[mr-tutor-new](https://github.com/owenawsong/mr-tutor-new)**
-
-The next-gen rebuild of Mr. Tutor. Smarter. Cleaner. Still Python.
-
-`lang` — Python
-`type` — AI Tutor v2
-`status` — [in progress](https://img.shields.io/badge/in_progress-E3B341?style=flat-square&labelColor=0d1117)
-
-</td>
-<td width="50%" valign="top">
-
-**[visit-a-friend](https://github.com/owenawsong/visit-a-friend)**
-
-Official website for the epic adventure game "Visit a friend" by Cyscination.
-
-`lang` — HTML
-`type` — Game Website
-`status` — [live](https://img.shields.io/badge/live-3FB950?style=flat-square&labelColor=0d1117)
+[[Discord](https://img.shields.io/badge/discord-b111ue-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com)
 
 </td>
 </tr>
 </table>
 
-<br>
+<br/>
 
----
+<!-- ─── TECH STACK ──────────────────────────────────────────── -->
+<h3 align="center"><code>⚡ &nbsp;tech stack</code></h3>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
-**stats**
+<br/>
 
-<br>
+<!-- ─── FEATURED PROJECTS ──────────────────────────────────── -->
+<h3 align="center"><code>🚀 &nbsp;featured projects</code></h3>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=owenawsong&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=owenawsong&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&langs_count=6" />
+<table align="center" width="92%" border="0">
+<tr>
+<td width="50%" valign="top">
 
-<br><br>
+<h4>🤖 &nbsp;<a href="https://github.com/owenawsong/Harbor">Harbor</a></h4>
 
-<img src="https://streak-stats.demolab.com?user=owenawsong&theme=github-dark-blue&hide_border=true&background=00000000&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+> An AI browser agent that completes tasks for you — at the comfort of an extension.
 
-<br><br>
+```
+ lang   ──  TypeScript
+ type   ──  AI Browser Agent
+ status ──  🟢 active
+```
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=owenawsong&theme=github-compact&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF" />
+[![View](https://img.shields.io/badge/→_view_repo-Harbor-58a6ff?style=flat-square&logo=github&logoColor=white)](https://github.com/owenawsong/Harbor)
 
-<br>
+</td>
+<td width="50%" valign="top">
 
----
+<h4>🎓 &nbsp;<a href="https://github.com/owenawsong/mr-tutor-discord-bot">mr-tutor-discord-bot</a></h4>
 
-<br>
+> Advanced discord bot that uses AI models to be the perfect tutor for any occasion.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake.svg">
-  <img alt="snake" src="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake.svg">
-</picture>
+```
+ lang   ──  Python
+ type   ──  Discord Bot + AI
+ status ──  🟢 active
+```
 
-<br>
+[![View](https://img.shields.io/badge/→_view_repo-mr--tutor-58a6ff?style=flat-square&logo=github&logoColor=white)](https://github.com/owenawsong/mr-tutor-discord-bot)
 
-</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h4>🔄 &nbsp;<a href="https://github.com/owenawsong/mr-tutor-new">mr-tutor-new</a></h4>
+
+> The next-gen rebuild of Mr. Tutor. Smarter. Cleaner. Still Python.
+
+```
+ lang   ──  Python
+ type   ──  AI Tutor v2
+ status ──  🟡 in progress
+```
+
+[![View](https://img.shields.io/badge/→_view_repo-mr--tutor--new-58a6ff?style=flat-square&logo=github&logoColor=white)](https://github.com/owenawsong/mr-tutor-new)
+
+</td>
+<td width="50%" valign="top">
+
+<h4>🎮 &nbsp;<a href="https://github.com/owenawsong/visit-a-friend">visit-a-friend</a></h4>
+
+> Official website for the epic adventure game "Visit a friend" by Cyscination.
+
+```
+ lang   ──  HTML
+ type   ──  Game Website
+ status ──  🟢 live
+```
+
+[![View](https://img.shields.io/badge/→_view_repo-visit--a--friend-58a6ff?style=flat-square&logo=github&logoColor=white)](https://github.com/owenawsong/visit-a-friend)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ─── GITHUB STATS ────────────────────────────────────────── -->
+<h3 align="center"><code>📊 &nbsp;stats</code></h3>
+
+<p align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=owenawsong&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true"/>
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=owenawsong&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=owenawsong&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e"/>
+</p>
+
+<br/>
+
+<!-- ─── ACTIVITY GRAPH ──────────────────────────────────────── -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=owenawsong&bg_color=0d1117&color=58a6ff&line=1a4a6b&point=58a6ff&area=true&area_color=1a2a3a&hide_border=true" width="92%"/>
+</p>
+
+<br/>
+
+<!-- ─── CONTRIBUTION SNAKE ─────────────────────────────────── -->
+<h3 align="center"><code>🐍 &nbsp;commit snake</code></h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/owenawsong/owenawsong/output/github-contribution-grid-snake-dark.svg" width="92%">
+  </picture>
+</p>
+
+<br/>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────── -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=owenawsong&color=58a6ff&style=flat-square&label=profile+views"/>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,50:0d2137,100:0d1117&height=130&section=footer"/>
+
+<p align="center">
+  <sub><i>if you're reading this... hey 👋</i></sub>
+</p>
+
+
+
+| **Profile views** | Live counter badge |
+
+The whole thing uses your dark blue/navy aesthetic to match that moody tree pfp 🌲
