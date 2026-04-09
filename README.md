@@ -4,7 +4,7 @@
 <!-- ============================================================ -->
 
 <!-- ANIMATED WAVE HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1a2e,80:0d2137,100:0a1628&height=220&section=header&text=owen%20song&fontSize=65&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=//+building+things+in+the+dark&descAlignY=62&descSize=17&descColor=8b949e"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,40:0d3b66,80:1a6fa0,100:58a6ff&height=220&section=header&text=owen%20song&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=//+building+things+in+the+dark&descAlignY=62&descSize=17&descColor=c9d1d9"/>
 
 <!-- TYPING ANIMATION -->
 <p align="center">
@@ -13,7 +13,7 @@
 
 <br/>
 
-<!-- ─── ABOUT + ASCII ART ──────────────────────────────────── -->
+<!-- ─── ABOUT + PROFILE CARD ──────────────────────────────── -->
 <table align="center" width="92%" border="0">
 <tr>
 <td width="55%" valign="top">
@@ -44,25 +44,24 @@
 </td>
 <td width="45%" align="center" valign="middle">
 
-```
-   *    .       *      .    *      .
-       .    *       .          *
-  .        ___*___        .        .
-      *   / __|__ \    *
-  .      / / | \ \         .    *
-    *   / /  |  \ \    .
-    .  /__\  |  /__\        *
-      /____\ | /____\   .
-  *  /______\|/______\       .
-    ══════════════════════
-    ░░░░░░░░░░░░░░░░░░░░░░
-  
-   dark skies · bright commits
-```
+<img src="https://komarev.com/ghpvc/?username=owenawsong&color=58a6ff&style=flat-square&label=profile+views"/>
 
-*"i do random stuff when i got time"*
+<br/>
+<br/>
 
-[[Discord](https://img.shields.io/badge/discord-b111ue-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com)
+<img src="https://img.shields.io/badge/Focus-AI_%26_Agents-58a6ff?style=for-the-badge&logo=probot&logoColor=white&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Status-Building-58a6ff?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=0d1117"/>
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/Discord-b111ue-5865F2?style=flat-square&logo=discord&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-owenawsong-181717?style=flat-square&logo=github&logoColor=white"/>
+
+<br/>
+<br/>
+
+*dark skies · bright commits*
 
 </td>
 </tr>
@@ -71,7 +70,7 @@
 <br/>
 
 <!-- ─── TECH STACK ──────────────────────────────────────────── -->
-<h3 align="center"><code>⚡ &nbsp;tech stack</code></h3>
+<h3 align="center">⚡ Tech Stack</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -88,13 +87,13 @@
 <br/>
 
 <!-- ─── FEATURED PROJECTS ──────────────────────────────────── -->
-<h3 align="center"><code>🚀 &nbsp;featured projects</code></h3>
+<h3 align="center">🚀 Featured Projects</h3>
 
 <table align="center" width="92%" border="0">
 <tr>
 <td width="50%" valign="top">
 
-<h4>🤖 &nbsp;<a href="https://github.com/owenawsong/Harbor">Harbor</a></h4>
+<h4><img src="https://cdn.simpleicons.org/probot/58A6FF" width="20" height="20" align="top"/> &nbsp;<a href="https://github.com/owenawsong/Harbor">Harbor</a></h4>
 
 > An AI browser agent that completes tasks for you — at the comfort of an extension.
 
@@ -109,7 +108,7 @@
 </td>
 <td width="50%" valign="top">
 
-<h4>🎓 &nbsp;<a href="https://github.com/owenawsong/mr-tutor-discord-bot">mr-tutor-discord-bot</a></h4>
+<h4><img src="https://cdn.simpleicons.org/gradle/58A6FF" width="20" height="20" align="top"/> &nbsp;<a href="https://github.com/owenawsong/mr-tutor-discord-bot">mr-tutor-discord-bot</a></h4>
 
 > Advanced discord bot that uses AI models to be the perfect tutor for any occasion.
 
@@ -126,7 +125,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<h4>🔄 &nbsp;<a href="https://github.com/owenawsong/mr-tutor-new">mr-tutor-new</a></h4>
+<h4><img src="https://cdn.simpleicons.org/replit/58A6FF" width="20" height="20" align="top"/> &nbsp;<a href="https://github.com/owenawsong/mr-tutor-new">mr-tutor-new</a></h4>
 
 > The next-gen rebuild of Mr. Tutor. Smarter. Cleaner. Still Python.
 
@@ -141,7 +140,7 @@
 </td>
 <td width="50%" valign="top">
 
-<h4>🎮 &nbsp;<a href="https://github.com/owenawsong/visit-a-friend">visit-a-friend</a></h4>
+<h4><img src="https://cdn.simpleicons.org/scratch/58A6FF" width="20" height="20" align="top"/> &nbsp;<a href="https://github.com/owenawsong/visit-a-friend">visit-a-friend</a></h4>
 
 > Official website for the epic adventure game "Visit a friend" by Cyscination.
 
@@ -160,12 +159,18 @@
 <br/>
 
 <!-- ─── GITHUB STATS ────────────────────────────────────────── -->
-<h3 align="center"><code>📊 &nbsp;stats</code></h3>
+<h3 align="center">📊 Stats</h3>
 
-<p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=owenawsong&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true"/>
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=owenawsong&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"/>
-</p>
+<table align="center" width="92%" border="0">
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <img height="175" src="https://github-readme-stats.vercel.app/api?username=owenawsong&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true"/>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=owenawsong&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"/>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=owenawsong&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e"/>
@@ -174,6 +179,8 @@
 <br/>
 
 <!-- ─── ACTIVITY GRAPH ──────────────────────────────────────── -->
+<h3 align="center">📈 Activity</h3>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=owenawsong&bg_color=0d1117&color=58a6ff&line=1a4a6b&point=58a6ff&area=true&area_color=1a2a3a&hide_border=true" width="92%"/>
 </p>
@@ -181,7 +188,7 @@
 <br/>
 
 <!-- ─── CONTRIBUTION SNAKE ─────────────────────────────────── -->
-<h3 align="center"><code>🐍 &nbsp;commit snake</code></h3>
+<h3 align="center">🐍 Commit Snake</h3>
 
 <p align="center">
   <picture>
@@ -196,18 +203,8 @@
 <br/>
 
 <!-- ─── FOOTER ─────────────────────────────────────────────── -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=owenawsong&color=58a6ff&style=flat-square&label=profile+views"/>
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,50:0d2137,100:0d1117&height=130&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1a6fa0,100:161b22&height=130&section=footer"/>
 
 <p align="center">
   <sub><i>if you're reading this... hey 👋</i></sub>
 </p>
-
-
-
-| **Profile views** | Live counter badge |
-
-The whole thing uses your dark blue/navy aesthetic to match that moody tree pfp 🌲
