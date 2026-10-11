@@ -24,7 +24,7 @@ These are design judgments from the examples, not a universal ranking:
 - A clear route to try the work.
 - Specific evidence: published models, dataset sizes, runtime exports, and evaluation.
 - Useful technical depth in expandable sections.
-- One gentle animation with a reduced-motion fallback.
+- Gentle scene animations with a reduced-motion fallback.
 - Original files hosted in the repository, avoiding third-party banner widgets.
 - Text descriptions and alt text alongside visual assets.
 
@@ -42,7 +42,7 @@ Common problems to avoid: an oversized badge wall, invented job titles, copied m
 
 ## Artwork
 
-The current banner is a code-authored pixel-art SVG in `assets/night-window.svg`, built with Codex assistance. Its shapes, colors, typography, and gentle firefly animation are editable in `scripts/build_banner.py`. Run `python scripts/build_banner.py` to rebuild it. The profile identifies Owen as a student developer. The cassette and waveform animation remain unchanged.
+The current banner is a code-authored pixel-art SVG in `assets/night-window.svg`, built with Codex assistance. Its shapes, colors, typography, and scene animations are editable in `scripts/build_banner.py`. Run `python scripts/build_banner.py` to rebuild it. The profile identifies Owen as a student developer. The cassette and waveform animation remain unchanged.
 
 This replaces the earlier image-model illustration. It is not claimed to be artwork made independently by a human artist. All current graphics are self-contained SVG files with no external image services or remote fonts. Motion respects reduced-motion preferences.
 
@@ -62,3 +62,7 @@ This must read exceptionally well at 800px wide on GitHub and at phone size. No 
 The local preview approximates GitHub's Markdown layout. It is not a replacement website or an exact GitHub renderer. README content uses repository images, links, paragraphs, and native details/summary sections.
 
 The repository was public at the last verification. Repository visibility is a separate account setting.
+
+## Motion update
+
+Removed the decorative corner brackets and window mullions. The banner displays just `@owenawsong`. Clouds drift, water shimmers, stars twinkle, fireflies move, coffee steam rises, the monitor waveform animates, and an occasional shooting star crosses the sky. All decorative motion stops when reduced motion is requested. The main text remains stationary. The listening-room animation is unchanged.

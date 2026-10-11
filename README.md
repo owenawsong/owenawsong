@@ -1,4 +1,4 @@
-<img src="assets/night-window.svg" width="100%" alt="Owen Song — student developer, machine learning and experiments. A pixel-art night scene with a moonlit forest, a small desk, and softly drifting fireflies.">
+<img src="assets/night-window.svg?v=2" width="100%" alt="Owen Song — student developer, machine learning and experiments. An open pixel-art night scene with drifting clouds, shimmering water, fireflies, coffee steam and an animated monitor.">
 
 I'm Owen, a **student developer** interested in machine learning, efficient AI, and building useful software. My projects include small speech models, inference experiments, browser agents, and music stats.
 
@@ -65,3 +65,4 @@ Mostly **Python, PyTorch, ONNX Runtime, CUDA, TypeScript, and React**.
 
 Tried something I've made? I'd like to hear how it went.  
 **[owen.aw.song@gmail.com](mailto:owen.aw.song@gmail.com)** · Discord **blue.os**
+
