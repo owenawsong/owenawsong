@@ -42,9 +42,11 @@ Common problems to avoid: an oversized badge wall, invented job titles, copied m
 
 ## Artwork
 
-The banner was generated with the built-in imagegen tool, reviewed, and copied into `assets/night-lab.png`. The SVG illustrations and animation were created as editable vector code. No third-party image endpoints or remote fonts are required.
+The current banner is a code-authored pixel-art SVG in `assets/night-window.svg`, built with Codex assistance. Its shapes, colors, typography, and gentle firefly animation are editable in `scripts/build_banner.py`. Run `python scripts/build_banner.py` to rebuild it. The profile identifies Owen as a student developer. The cassette and waveform animation remain unchanged.
 
-### Banner prompt
+This replaces the earlier image-model illustration. It is not claimed to be artwork made independently by a human artist. All current graphics are self-contained SVG files with no external image services or remote fonts. Motion respects reduced-motion preferences.
+
+### Previous illustration prompt (archived)
 
 Use case: illustration-story.
 Asset type: a meticulously art-directed original GitHub profile banner for Owen Song, an independent machine learning developer. Wide landscape composition, approximately 3:1.
@@ -59,4 +61,4 @@ This must read exceptionally well at 800px wide on GitHub and at phone size. No 
 
 The local preview approximates GitHub's Markdown layout. It is not a replacement website or an exact GitHub renderer. README content uses repository images, links, paragraphs, and native details/summary sections.
 
-The repository remains private at Owen's request. GitHub will display the README publicly on the profile only after the repository is made public.
+The repository was public at the last verification. Repository visibility is a separate account setting.
