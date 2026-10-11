@@ -70,3 +70,7 @@ Removed the decorative corner brackets and window mullions. The banner displays 
 ## Image caching
 
 GitHub's branch-based raw image URL was observed serving the previous SVG even with a version query. The banner builder now gives each changed SVG a SHA-256 content-based filename and updates the README reference. Verification checks the served SVG contents, not just whether the image loads.
+
+## Profile composition update
+
+A visible "What I'm exploring" section explains the student's interests in model efficiency, training data, and deployment. Inflect's description now precedes its demo panel, separating that illustration from the identity banner. The listening panel uses a warm cream, green, and brown palette while preserving its reel and waveform animation. Its content-based filename prevents an earlier graphic from being served from cache. No additional projects, credentials, or qualifications are claimed.

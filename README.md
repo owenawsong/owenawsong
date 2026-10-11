@@ -6,11 +6,20 @@ Most of my ML releases live on **[Hugging Face](https://huggingface.co/owensong)
 
 [Hugging Face ↗](https://huggingface.co/owensong) &nbsp; · &nbsp; [Email ↗](mailto:owen.aw.song@gmail.com) &nbsp; · &nbsp; Discord **blue.os**
 
-## A small model you can actually listen to
 
-<a href="https://huggingface.co/spaces/owensong/Inflect-v2"><img src="assets/listening-room.svg" width="100%" alt="Inflect v2 listening room. Nano: 3.96M parameters; Micro: 9.36M. Open the live demo to hear both. The animated waveform is decorative."></a>
+## What I'm exploring
+
+- **Smaller models:** how architecture and model size affect quality, inference cost, and what can run locally.
+- **Better training data:** synthetic speech, coverage, and testing what a dataset actually teaches a model.
+- **Models in real software:** ONNX conversion, quantization, browser inference, and agents that use tools.
+
+These interests show up in different parts of my projects: model weights and datasets on Hugging Face, inference code and apps on GitHub.
+
+## Inflect · small models, complete speech
 
 **[Inflect](https://github.com/owenawsong/Inflect)** is my compact text-to-speech project. Nano fits the whole learned text-to-waveform path into **3.96M parameters**. Micro uses **9.36M**. Both make 24 kHz English speech locally, including the waveform decoder.
+
+<a href="https://huggingface.co/spaces/owensong/Inflect-v2"><img src="assets/listening-room-1d13c33190b9.svg" width="100%" alt="Inflect v2 listening room. Nano: 3.96M parameters; Micro: 9.36M. Open the live demo to hear both. The animated waveform is decorative."></a>
 
 **[Try both voices →](https://huggingface.co/spaces/owensong/Inflect-v2)** &nbsp; · &nbsp; [Weights](https://huggingface.co/owensong) &nbsp; · &nbsp; [Code & results](https://github.com/owenawsong/Inflect)
 
