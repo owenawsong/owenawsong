@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t"><title id="t">Sleeve — music history</title>
+<rect width="600" height="260" rx="8" fill="#312c2a"/>
+<g transform="translate(423 119)"><circle r="79" fill="#171b22"/><circle r="66" fill="none" stroke="#494448"/><circle r="56" fill="none" stroke="#494448"/><circle r="46" fill="none" stroke="#494448"/><circle r="29" fill="#d4a07c"/><circle r="5" fill="#312c2a"/><path d="M-59-23L-30-56 M-65-8L-43-39" stroke="#81838a" opacity=".5"/></g>
+<path d="M506 38V79L468 113" fill="none" stroke="#d4bfb0" stroke-width="5"/><path d="M467 107L474 113L461 126L454 120Z" fill="#d4bfb0"/>
+<text x="29" y="43" fill="#b7a9a0" font-family="monospace" font-size="15" letter-spacing="2">03 / MUSIC &amp; DATA</text>
+<text x="26" y="116" fill="#f1e6d3" font-family="Georgia,serif" font-size="60">Sleeve</text>
+<text x="29" y="154" fill="#d7c5b8" font-family="Arial,sans-serif" font-size="21">Your taste has a history.</text>
+<text x="29" y="230" fill="#d4a07c" font-family="Arial,sans-serif" font-size="18">Open the app ↗</text></svg>

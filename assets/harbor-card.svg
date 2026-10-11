@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t"><title id="t">Harbor — browser agents</title>
+<rect width="600" height="260" rx="8" fill="#112c40"/>
+<path d="M0 169Q80 149 160 169T320 169T480 169T640 169 M0 185Q80 165 160 185T320 185T480 185T640 185" fill="none" stroke="#486f86" opacity=".35"/>
+<circle cx="473" cy="69" r="22" fill="#c3d5d8"/>
+<path d="M366 159H545L525 180H390Z" fill="#8aaec0"/><path d="M432 149V49L484 142Z" fill="#e7d3ae"/><path d="M424 61L387 146H424Z" fill="#65889d"/><path d="M433 182Q470 194 509 188" fill="none" stroke="#90a7b6"/>
+<text x="29" y="43" fill="#98b7c6" font-family="monospace" font-size="15" letter-spacing="2">02 / APPLIED AI</text>
+<text x="26" y="116" fill="#f1e6d3" font-family="Georgia,serif" font-size="60">Harbor</text>
+<text x="29" y="154" fill="#c3d5d8" font-family="Arial,sans-serif" font-size="21">Agents inside your browser.</text>
+<text x="29" y="230" fill="#e7d3ae" font-family="Arial,sans-serif" font-size="18">Explore the source ↗</text></svg>
