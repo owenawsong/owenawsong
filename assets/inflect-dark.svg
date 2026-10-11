@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d"><title id="t">Inflect v2 — full inference footprint</title><desc id="d">Nano: 3.96M parameters, 15.97 MB FP32. Micro: 9.36M parameters, 37.53 MB FP32. Complete learned text-to-waveform paths.</desc>
+<rect width="1200" height="330" fill="#08121e"/>
+<text x="36" y="50" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="2">INFLECT V2 / COMPLETE INFERENCE FOOTPRINT</text>
+<path d="M36 73H1164 M760 98V293" stroke="#263a4c"/>
+<text x="36" y="121" fill="#f2f5f7" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700">NANO</text>
+<rect x="36" y="143" width="124.5" height="18" fill="#85baff"/>
+<text x="36" y="205" fill="#f2f5f7" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700">3.96M</text>
+<text x="36" y="238" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="18">parameters / 15.97 MB FP32</text>
+<text x="398" y="121" fill="#f2f5f7" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700">MICRO</text>
+<rect x="398" y="143" width="294" height="18" fill="#b9edbb"/>
+<text x="398" y="205" fill="#f2f5f7" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700">9.36M</text>
+<text x="398" y="238" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="18">parameters / 37.53 MB FP32</text>
+<text x="802" y="126" fill="#f2f5f7" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">Text → waveform</text>
+<text x="802" y="163" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="20">Encoder + durations + flows</text>
+<text x="802" y="197" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="20">+ integrated neural decoder</text>
+<text x="802" y="245" fill="#b9edbb" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700">24 kHz / local inference</text>
+<text x="36" y="296" fill="#9cadbf" font-family="Arial,Helvetica,sans-serif" font-size="16">Counts include all learned modules loaded for synthesis. Training-only discriminators excluded.</text></svg>
