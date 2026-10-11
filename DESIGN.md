@@ -42,7 +42,7 @@ Common problems to avoid: an oversized badge wall, invented job titles, copied m
 
 ## Artwork
 
-The current banner is a code-authored pixel-art SVG in `assets/night-window.svg`, built with Codex assistance. Its shapes, colors, typography, and scene animations are editable in `scripts/build_banner.py`. Run `python scripts/build_banner.py` to rebuild it. The profile identifies Owen as a student developer. The cassette and waveform animation remain unchanged.
+The current banner is a code-authored pixel-art SVG in `assets/night-window-<content-hash>.svg`, built with Codex assistance. Its shapes, colors, typography, and scene animations are editable in `scripts/build_banner.py`. Run `python scripts/build_banner.py` to rebuild it. The profile identifies Owen as a student developer. The cassette and waveform animation remain unchanged.
 
 This replaces the earlier image-model illustration. It is not claimed to be artwork made independently by a human artist. All current graphics are self-contained SVG files with no external image services or remote fonts. Motion respects reduced-motion preferences.
 
@@ -66,3 +66,7 @@ The repository was public at the last verification. Repository visibility is a s
 ## Motion update
 
 Removed the decorative corner brackets and window mullions. The banner displays just `@owenawsong`. Clouds drift, water shimmers, stars twinkle, fireflies move, coffee steam rises, the monitor waveform animates, and an occasional shooting star crosses the sky. All decorative motion stops when reduced motion is requested. The main text remains stationary. The listening-room animation is unchanged.
+
+## Image caching
+
+GitHub's branch-based raw image URL was observed serving the previous SVG even with a version query. The banner builder now gives each changed SVG a SHA-256 content-based filename and updates the README reference. Verification checks the served SVG contents, not just whether the image loads.

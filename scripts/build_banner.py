@@ -2,6 +2,8 @@
 from pathlib import Path
 import math
 import random
+import hashlib
+import re
 
 root = Path(__file__).resolve().parents[1]
 rng = random.Random(37)
@@ -110,5 +112,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" view
 <g fill="#e8d19c" shape-rendering="crispEdges">
 <rect class="firefly" x="683" y="277" width="4" height="4"/><rect class="firefly slow" x="1068" y="191" width="3" height="3"/><rect class="firefly slow" x="849" y="96" width="3" height="3"/><rect class="firefly" x="934" y="293" width="3" height="3"/><rect class="firefly slow" x="1134" y="164" width="3" height="3"/>
 </g></g></svg>'''
-(root/"assets"/"night-window.svg").write_text(svg,encoding="utf-8")
-print("Built assets/night-window.svg")
+digest = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+asset_name = f"night-window-{digest}.svg"
+(root/"assets"/asset_name).write_text(svg,encoding="utf-8")
+readme_path = root/"README.md"
+readme = readme_path.read_text(encoding="utf-8")
+readme = re.sub(r'assets/night-window(?:-[a-zA-Z0-9]+)?[.]svg(?:[?][^\"]*)?', "assets/"+asset_name, readme)
+readme_path.write_text(readme,encoding="utf-8")
+print("Built assets/"+asset_name+" and updated README")

@@ -1,4 +1,4 @@
-<img src="assets/night-window.svg?v=2" width="100%" alt="Owen Song — student developer, machine learning and experiments. An open pixel-art night scene with drifting clouds, shimmering water, fireflies, coffee steam and an animated monitor.">
+<img src="assets/night-window-5ad2096d3094.svg" width="100%" alt="Owen Song — student developer, machine learning and experiments. An open pixel-art night scene with drifting clouds, shimmering water, fireflies, coffee steam and an animated monitor.">
 
 I'm Owen, a **student developer** interested in machine learning, efficient AI, and building useful software. My projects include small speech models, inference experiments, browser agents, and music stats.
 
