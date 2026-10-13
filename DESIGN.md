@@ -2,7 +2,7 @@
 
 ## Direction
 
-Owen chose a blend of an atmospheric blue night scene and a playful retro lab. The profile introduces a student developer with broad machine learning interests. Harbor and Inflect receive full feature sections, followed by four compact project showcases and optional engineering details.
+Owen chose a blend of an atmospheric blue night scene and a playful retro lab. The profile introduces a student developer with broad machine learning interests. Inflect leads the featured projects, followed by Harbor, four compact project showcases and optional engineering details.
 
 The illustrated room is fictional artwork, not a photograph of Owen's actual workspace. The cassette and animated waveform are decorative. Clicking the panel opens the existing live Inflect demo; the README does not run inference or play audio automatically.
 
@@ -80,12 +80,14 @@ A visible "What I'm exploring" section explains the student's interests in model
 
 ## October 2026 showcase
 
-- Harbor moves into the first featured project section. Its claims follow the public source: visual and DOM context, browser tools, provider choice and streaming progress. Private extension development features are not advertised here.
+- Inflect is the leading featured project; Harbor retains a full feature section after the model work. Harbor's claims follow the public source: visual and DOM context, browser tools, provider choice and streaming progress. Private extension development features are not advertised here.
 - The new Harbor panel illustrates browser interaction, with a moving cursor, highlighted page region and sequenced agent steps. It is explicitly labeled a workflow illustration, not a screenshot, product recording or performance demonstration.
 - Inflect retains its warm listening-room panel and full model/data/runtime section. The header's pixel-art scene and existing reel animations remain intact.
 - Sleeve, Counterplot, RareSpeech and discord-bot-kit have distinct illustrated panels with practical descriptions and direct links. Numerical curves, highlighting and command flow are decorative; actual results live in their linked projects.
 - RareSpeech is described as a research toolkit, with automatic retention qualified as an ASR proxy. No validated pronunciation leaderboard is implied.
 - Phone-specific `picture` sources recompose the Harbor feature and project cards. Descriptions remain native Markdown for accessible, readable content on every screen.
 - New artwork is authored in `scripts/build_showcase.py` using SVG shapes, text and CSS animation. Run `python scripts/build_showcase.py` to rebuild all variants; filenames contain content hashes to avoid stale images. The script needs only the Python standard library. No AI-generated raster imagery, external widgets or remote fonts are used.
+- Project names use one Georgia serif style across the feature panels and all phone variants. Harbor has a plain background; the illustrative browser provides the detail and movement.
+- Interests in efficiency, speech data, evaluation and agents appear before the repositories. Hugging Face has one introductory link. Email is written out, with contact details only in the footer. Mr. Tutor is omitted from this selection.
 
 Review the desktop and phone layouts, image loading, link destinations and reduced-motion behavior after an artwork change. A local preview is an approximation; the published GitHub profile is the final rendering check.

@@ -4,28 +4,14 @@ I'm Owen, a **student developer** working on machine learning and useful softwar
 
 My work spans **speech models, training data, inference, and browser agents**. Most of my model releases live on [Hugging Face](https://huggingface.co/owensong); the code and apps are here.
 
-**[Models & datasets ↗](https://huggingface.co/owensong)** &nbsp; · &nbsp; [Email](mailto:owen.aw.song@gmail.com) &nbsp; · &nbsp; Discord **blue.os**
+## What I’m exploring
 
-## Harbor · an agent in your browser
+- **Model efficiency:** how architecture, model size and quantization affect quality and what can run locally.
+- **Speech & training data:** small TTS models, synthetic datasets, and coverage beyond the easy examples.
+- **Evaluation:** looking at individual failures as well as aggregate scores, with recordings and reproducible comparisons.
+- **Agents & tools:** connecting models to browser interfaces and development workflows, then making their actions inspectable.
 
-**[Harbor](https://github.com/owenawsong/Harbor)** is my open-source browser agent extension. It reads the page through **visual and DOM context**, uses browser tools to act, and streams its progress into the side panel. You choose the model and provider.
-
-<a href="https://github.com/owenawsong/Harbor"><picture><source media="(max-width: 600px)" srcset="assets/harbor-mobile-98886ddb64ae.svg"><img src="assets/harbor-feature-80334cb6b1b4.svg" width="100%" alt="Harbor — an agent in your browser. Animated illustration of a page, a moving cursor, and an agent's read, act and report workflow. Explore the source."></picture></a>
-
-**See the page.** Screenshots and structured DOM context help the agent understand what's in front of it.<br>
-**Work with the browser.** Tools for navigation, tabs, clicking, typing, forms and extracting information.<br>
-**Follow the process.** Streaming responses and tool activity show the steps as they happen.
-
-**[Explore Harbor →](https://github.com/owenawsong/Harbor#readme)** &nbsp; · &nbsp; [Browse the implementation](https://github.com/owenawsong/Harbor/tree/main/src)
-
-<details>
-<summary><b>The part I'm interested in: connecting a model to a real interface.</b></summary>
-
-A browser agent has to work across page context, model responses, tool execution and a UI that keeps the user informed. Harbor brings these together in a TypeScript / React extension: content scripts read and interact with pages, the background coordinates requests and browser tools, and the side panel displays the conversation and tool progress.
-
-[Page interaction](https://github.com/owenawsong/Harbor/blob/main/src/content/index.ts) · [Streaming & tool progress](https://github.com/owenawsong/Harbor/blob/main/src/sidepanel/hooks/useChat.ts)
-
-</details>
+These interests connect the projects below—from training and exporting a speech model to testing the tools around it.
 
 ## Inflect · small models, complete speech
 
@@ -67,11 +53,32 @@ The release reports community listening, multi-ASR intelligibility, predicted na
 
 </details>
 
+## Harbor · an agent in your browser
+
+**[Harbor](https://github.com/owenawsong/Harbor)** is my open-source browser agent extension. It reads the page through **visual and DOM context**, uses browser tools to act, and streams its progress into the side panel. You choose the model and provider.
+
+<a href="https://github.com/owenawsong/Harbor"><picture><source media="(max-width: 600px)" srcset="assets/harbor-mobile-5b0bc4a1de8e.svg"><img src="assets/harbor-feature-05e6119e6963.svg" width="100%" alt="Harbor — an agent in your browser. Animated illustration of a page, a moving cursor, and an agent's read, act and report workflow. Explore the source."></picture></a>
+
+**See the page.** Screenshots and structured DOM context help the agent understand what's in front of it.<br>
+**Work with the browser.** Tools for navigation, tabs, clicking, typing, forms and extracting information.<br>
+**Follow the process.** Streaming responses and tool activity show the steps as they happen.
+
+**[Explore Harbor →](https://github.com/owenawsong/Harbor#readme)** &nbsp; · &nbsp; [Browse the implementation](https://github.com/owenawsong/Harbor/tree/main/src)
+
+<details>
+<summary><b>The part I'm interested in: connecting a model to a real interface.</b></summary>
+
+A browser agent has to work across page context, model responses, tool execution and a UI that keeps the user informed. Harbor brings these together in a TypeScript / React extension: content scripts read and interact with pages, the background coordinates requests and browser tools, and the side panel displays the conversation and tool progress.
+
+[Page interaction](https://github.com/owenawsong/Harbor/blob/main/src/content/index.ts) · [Streaming & tool progress](https://github.com/owenawsong/Harbor/blob/main/src/sidepanel/hooks/useChat.ts)
+
+</details>
+
 ## More things to explore
 
 <p>
-  <a href="https://liner-c7u.pages.dev/"><picture><source media="(max-width: 600px)" srcset="assets/sleeve-mobile-0f858643e55a.svg"><img src="assets/sleeve-showcase-a7d4ac79a476.svg" width="49%" alt="Sleeve — your taste has a history. Open the live music-history explorer."></picture></a>
-  <a href="https://owenawsong.github.io/Counterplot/"><picture><source media="(max-width: 600px)" srcset="assets/counterplot-mobile-4b5874568abe.svg"><img src="assets/counterplot-showcase-d70c88d163ba.svg" width="49%" alt="Counterplot — change an assumption, see why. Explore the live numerical experiments."></picture></a>
+  <a href="https://liner-c7u.pages.dev/"><picture><source media="(max-width: 600px)" srcset="assets/sleeve-mobile-282b93b80a53.svg"><img src="assets/sleeve-showcase-d9e534866fdf.svg" width="49%" alt="Sleeve — your taste has a history. Open the live music-history explorer."></picture></a>
+  <a href="https://owenawsong.github.io/Counterplot/"><picture><source media="(max-width: 600px)" srcset="assets/counterplot-mobile-7ab62359ad36.svg"><img src="assets/counterplot-showcase-3c370e05544a.svg" width="49%" alt="Counterplot — change an assumption, see why. Explore the live numerical experiments."></picture></a>
 </p>
 
 **[Sleeve](https://github.com/owenawsong/liner)** — explore listening eras, lasting favorites, changes in taste and discoveries from your music history. Bring a Last.fm profile or imported listening files. **[Open the app →](https://liner-c7u.pages.dev/)**
@@ -79,26 +86,18 @@ The release reports community listening, multi-ASR intelligibility, predicted na
 **[Counterplot](https://github.com/owenawsong/Counterplot)** — run parameter studies, inspect classifier errors and compare scenarios with a baseline. Export an interactive experiment as **one HTML file** someone else can explore offline. **[Try the gallery →](https://owenawsong.github.io/Counterplot/)**
 
 <p>
-  <a href="https://owenawsong.github.io/RareSpeech/"><picture><source media="(max-width: 600px)" srcset="assets/rarespeech-mobile-f05aa25784b7.svg"><img src="assets/rarespeech-showcase-072e43c4dfca.svg" width="49%" alt="RareSpeech — look closer at the uncommon word. Inspect the rare-term collection and original audio evidence."></picture></a>
-  <a href="https://github.com/owenawsong/discord-bot-kit"><picture><source media="(max-width: 600px)" srcset="assets/discord-kit-mobile-b1f55d663e2f.svg"><img src="assets/discord-kit-showcase-4282bb62436b.svg" width="49%" alt="discord-bot-kit — test the handlers, inspect the state. Explore the local development toolkit."></picture></a>
+  <a href="https://owenawsong.github.io/RareSpeech/"><picture><source media="(max-width: 600px)" srcset="assets/rarespeech-mobile-bc0569e43819.svg"><img src="assets/rarespeech-showcase-c17b943e61ff.svg" width="49%" alt="RareSpeech — look closer at the uncommon word. Inspect the rare-term collection and original audio evidence."></picture></a>
+  <a href="https://github.com/owenawsong/discord-bot-kit"><picture><source media="(max-width: 600px)" srcset="assets/discord-kit-mobile-2c2b48c21027.svg"><img src="assets/discord-kit-showcase-282db0b8ac11.svg" width="49%" alt="discord-bot-kit — test the handlers, inspect the state. Explore the local development toolkit."></picture></a>
 </p>
 
 **[RareSpeech](https://github.com/owenawsong/RareSpeech)** — a research toolkit for **rare-term TTS evaluation beside WER**. Fixed specialist-word tracks, target-level alignment and original recordings let you inspect what an aggregate score misses. Automatic retention is an ASR proxy; pronunciation validation is ongoing. **[Inspect the evidence →](https://owenawsong.github.io/RareSpeech/)**
 
 **[discord-bot-kit](https://github.com/owenawsong/discord-bot-kit)** — build and test Discord bots locally. Run commands and components against the actual handlers, inspect state changes, and turn sessions into test scenarios. Includes recipes, **CLI + MCP tools** for coding agents. **[Try the ticket workflow →](https://github.com/owenawsong/discord-bot-kit#try-the-ticket-workflow)**
 
-Also: **[Mr. Tutor](https://github.com/owenawsong/mr-tutor-discord-bot)**, my AI tutoring bot for Discord.
-
-## What keeps me experimenting
-
-**Smaller models** — the tradeoffs between architecture, quality, inference cost and what can run locally.<br>
-**Better data & evaluation** — synthetic speech, coverage, and checking the failures an average hides.<br>
-**Models in real software** — runtime exports, quantization, browser inference and agents that use tools.
-
 Mostly **Python · PyTorch · ONNX Runtime · CUDA · TypeScript · React**.
 
 ---
 
 Tried a model, found a strange failure, or built something with one of these? I'd like to hear about it.<br>
-**[owen.aw.song@gmail.com](mailto:owen.aw.song@gmail.com)** &nbsp; · &nbsp; Discord **blue.os**
+**owen.aw.song@gmail.com** &nbsp; · &nbsp; Discord **blue.os**
 

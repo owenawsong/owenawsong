@@ -18,7 +18,7 @@ def rect(x, y, w, h, fill, radius=0, extra=""):
 def save(name, body, width, height, title, description, style=""):
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>
-<style>text{{font-family:Arial,sans-serif}}.mono{{font-family:ui-monospace,monospace}}{style}
+<style>text{{font-family:Arial,sans-serif}}.mono{{font-family:ui-monospace,monospace}}.project-title{{font-family:Georgia,serif;font-weight:400}}{style}
 @media(prefers-reduced-motion:reduce){{.motion{{animation:none!important}}}}</style>
 {body}</svg>'''
     digest = hashlib.sha256(svg.encode()).hexdigest()[:12]
@@ -32,12 +32,8 @@ def save(name, body, width, height, title, description, style=""):
 
 def harbor():
     a = [rect(0, 0, 1200, 390, "#10232f", 8)]
-    a.append('<g fill="none" stroke="#26414e" opacity=".65">')
-    for y in range(28, 390, 38):
-        a.append(f'<path d="M0 {y}Q160 {y-28} 280 {y}T550 {y}"/>')
-    a.append('</g>')
     a += [text(42,51,"BROWSER AGENTS",17,"#8eb5ba",'class="mono" letter-spacing="2"'),
-          text(38,130,"Harbor",78,"#e7ece3",'font-weight="700" letter-spacing="-3"'),
+          text(38,130,"Harbor",72,"#eadbc0",'class="project-title"'),
           text(42,184,"An agent in your browser.",29,"#e7ece3"),
           text(42,224,"Page context. Real browser tools.",24),
           text(42,259,"Watch each step as it works.",24),
@@ -45,13 +41,13 @@ def harbor():
     # A workflow illustration, not an imitation of a real screenshot or measured run.
     a += [rect(552,39,612,312,"#0a161e",9,'stroke="#446273"'),rect(553,40,610,43,"#243b49",8),rect(553,66,610,17,"#243b49"),
           '<g fill="#7294a3"><circle cx="573" cy="61" r="4"/><circle cx="588" cy="61" r="4"/><circle cx="603" cy="61" r="4"/></g>',
-          rect(633,50,315,22,"#122733",5),text(650,66,"a page, an agent, your model",13,"#a6bdc9",'class="mono"'),
-          rect(572,101,326,230,"#e5e8dc",4),text(590,127,"FIELD NOTES",13,"#49645e",'class="mono" letter-spacing="2"'),
-          text(590,160,"A page worth reading.",21,"#183d3c",'font-weight="700"')]
+          rect(633,50,315,22,"#122733",5),text(650,66,"Active tab",13,"#a6bdc9",'class="mono"'),
+          rect(572,101,326,230,"#e5e8dc",4),text(590,127,"PAGE CONTEXT",13,"#49645e",'class="mono" letter-spacing="2"'),
+          text(590,160,"Read & extract",21,"#183d3c",'font-weight="700"')]
     for i,w in enumerate([260,246,267,170]): a.append(rect(590,180+i*12,w,4,"#aabbb2",2))
     a += [rect(589,242,288,63,"#d4ddd0",3),rect(589,242,288,63,"none",3,'stroke="#437e79" stroke-width="2" class="motion selection"'),
-          text(605,266,"A useful detail, right here.",17,"#244b46"),rect(605,278,235,4,"#8ca99a",2),rect(605,289,180,4,"#8ca99a",2),
-          text(921,124,"Harbor",22,"#e7ece3",'font-weight="700"'),text(921,151,"Read this page.",16),'<path d="M931 185V276" stroke="#395968" stroke-width="2"/>']
+          text(605,266,"Selected page content",17,"#244b46"),rect(605,278,235,4,"#8ca99a",2),rect(605,289,180,4,"#8ca99a",2),
+          text(921,124,"Harbor",26,"#eadbc0",'class="project-title"'),text(921,151,"Read this page.",16),'<path d="M931 185V276" stroke="#395968" stroke-width="2"/>']
     for i,(label,subtitle) in enumerate([("Read","Visual + DOM"),("Act","Browser tools"),("Report","Streaming progress")]):
         y=193+i*48
         a += [f'<circle cx="931" cy="{y-5}" r="7" fill="#335363"/>',f'<circle cx="931" cy="{y-5}" r="5" fill="#afd1c2" class="motion step step-{i}"/>',
@@ -68,7 +64,7 @@ def harbor():
          "Original animated workflow illustration: a cursor highlights a page while an agent uses visual and DOM context, browser tools and streaming progress. This is not a screenshot or a recorded run.",style)
     mobile=rect(0,0,600,665,"#10232f",8)
     mobile+=text(26,44,"BROWSER AGENTS",18,"#8eb5ba",'class="mono" letter-spacing="2"')
-    mobile+=text(22,121,"Harbor",76,"#e7ece3",'font-weight="700" letter-spacing="-3"')
+    mobile+=text(22,121,"Harbor",72,"#eadbc0",'class="project-title"')
     mobile+=text(26,167,"An agent in your browser.",30,"#e7ece3")
     mobile+=text(26,209,"Page context. Real browser tools.",25)
     mobile+=text(26,245,"Watch each step as it works.",25)
@@ -79,7 +75,7 @@ def harbor():
 
 def project_cards():
     shell=lambda bg:rect(0,0,600,264,bg,8)
-    serif='style="font-family:Georgia,serif" letter-spacing="-1"'
+    serif='class="project-title" letter-spacing="-1"'
     sleeve=shell("#201e1c")+text(28,48,"LISTENING HISTORY",15,"#b0a89e",'class="mono" letter-spacing="2"')
     sleeve+=text(26,104,"Sleeve",48,"#f0e7d7",serif)+text(28,140,"Your taste has a history.",23,"#c5bdb1")+text(28,232,"Open your record  ↗",21,"#fca377")
     sleeve+='<g transform="translate(476 192)"><circle r="57" fill="#10100f" stroke="#716457"/>'
@@ -101,7 +97,7 @@ def project_cards():
     save("rarespeech-showcase",rare,600,264,"RareSpeech — look closer at the uncommon word","A specialist term highlighted in a lexical notebook. Inspect rare-term target retention beside WER and listen to original recordings.",'.underline{animation:mark 7s ease-in-out infinite}@keyframes mark{0%,100%{opacity:.35}50%{opacity:1}}')
 
     discord=shell("#172a36")+text(28,48,"LOCAL BOT DEVELOPMENT",15,"#8eb2bc",'class="mono" letter-spacing="2"')
-    discord+=text(26,104,"discord-bot-kit",43,"#e6eee8",'font-weight="700" letter-spacing="-1.5"')+text(28,140,"Test the handlers. Inspect the state.",23,"#aec4ca")+text(28,232,"Build a bot you can test  ↗",21,"#afd1c2")
+    discord+=text(26,104,"discord-bot-kit",48,"#e6eee8",serif)+text(28,140,"Test the handlers. Inspect the state.",23,"#aec4ca")+text(28,232,"Build a bot you can test  ↗",21,"#afd1c2")
     discord+='<g transform="translate(415 169)"><path d="M10 22H142" stroke="#476779" stroke-width="2"/>'
     for i,label in enumerate(["/","{}","✓"]):
         x=i*61
@@ -118,7 +114,7 @@ def project_cards():
     for name,title,bg,fg,accent,label,lines,cta,art,view in variants:
         card=rect(0,0,300,284,bg,8)+text(18,32,label,13,fg,'class="mono" letter-spacing="1"')
         size=33 if title=="discord-bot-kit" else 38
-        card+=text(16,82,title,size,fg,'font-weight="700" letter-spacing="-1"')
+        card+=text(16,82,title,size,fg,serif)
         card+=text(18,119,lines[0],20,fg)+text(18,148,lines[1],20,fg)
         card+=f'<svg x="166" y="178" width="120" height="92" viewBox="{view}">{art}</svg>'
         card+=text(18,249,cta,19,accent)
