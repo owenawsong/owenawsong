@@ -99,5 +99,5 @@ Mostly **Python · PyTorch · ONNX Runtime · CUDA · TypeScript · React**.
 ---
 
 Tried a model, found a strange failure, or built something with one of these? I'd like to hear about it.<br>
-<b>owen.aw.song@gmail.com</b> &nbsp; · &nbsp; Discord **blue.os**
+<b>owen.aw.song<span>@</span>gmail.com</b> &nbsp; · &nbsp; Discord **blue.os**
 
