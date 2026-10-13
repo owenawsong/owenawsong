@@ -1,27 +1,39 @@
-<img src="assets/night-window-5ad2096d3094.svg" width="100%" alt="Owen Song — student developer, machine learning and experiments. An open pixel-art night scene with drifting clouds, shimmering water, fireflies, coffee steam and an animated monitor.">
+<img src="assets/night-window-5ad2096d3094.svg" width="100%" alt="Owen Song — student developer, machine learning and experiments. An animated pixel-art night scene with drifting clouds, shimmering water, fireflies and a desk by the forest.">
 
-I'm Owen, a **student developer** interested in machine learning, efficient AI, and building useful software. My projects include small speech models, inference experiments, browser agents, and music stats.
+I'm Owen, a **student developer** working on machine learning and useful software. I'm interested in what smaller models can do, how to evaluate them, and what happens when you give a model tools it can actually use.
 
-Most of my ML releases live on **[Hugging Face](https://huggingface.co/owensong)**. You'll find the code and apps here.
+My work spans **speech models, training data, inference, and browser agents**. Most of my model releases live on [Hugging Face](https://huggingface.co/owensong); the code and apps are here.
 
-[Hugging Face ↗](https://huggingface.co/owensong) &nbsp; · &nbsp; [Email ↗](mailto:owen.aw.song@gmail.com) &nbsp; · &nbsp; Discord **blue.os**
+**[Models & datasets ↗](https://huggingface.co/owensong)** &nbsp; · &nbsp; [Email](mailto:owen.aw.song@gmail.com) &nbsp; · &nbsp; Discord **blue.os**
 
+## Harbor · an agent in your browser
 
-## What I'm exploring
+**[Harbor](https://github.com/owenawsong/Harbor)** is my open-source browser agent extension. It reads the page through **visual and DOM context**, uses browser tools to act, and streams its progress into the side panel. You choose the model and provider.
 
-- **Smaller models:** how architecture and model size affect quality, inference cost, and what can run locally.
-- **Better training data:** synthetic speech, coverage, and testing what a dataset actually teaches a model.
-- **Models in real software:** ONNX conversion, quantization, browser inference, and agents that use tools.
+<a href="https://github.com/owenawsong/Harbor"><picture><source media="(max-width: 600px)" srcset="assets/harbor-mobile-98886ddb64ae.svg"><img src="assets/harbor-feature-80334cb6b1b4.svg" width="100%" alt="Harbor — an agent in your browser. Animated illustration of a page, a moving cursor, and an agent's read, act and report workflow. Explore the source."></picture></a>
 
-These interests show up in different parts of my projects: model weights and datasets on Hugging Face, inference code and apps on GitHub.
+**See the page.** Screenshots and structured DOM context help the agent understand what's in front of it.<br>
+**Work with the browser.** Tools for navigation, tabs, clicking, typing, forms and extracting information.<br>
+**Follow the process.** Streaming responses and tool activity show the steps as they happen.
+
+**[Explore Harbor →](https://github.com/owenawsong/Harbor#readme)** &nbsp; · &nbsp; [Browse the implementation](https://github.com/owenawsong/Harbor/tree/main/src)
+
+<details>
+<summary><b>The part I'm interested in: connecting a model to a real interface.</b></summary>
+
+A browser agent has to work across page context, model responses, tool execution and a UI that keeps the user informed. Harbor brings these together in a TypeScript / React extension: content scripts read and interact with pages, the background coordinates requests and browser tools, and the side panel displays the conversation and tool progress.
+
+[Page interaction](https://github.com/owenawsong/Harbor/blob/main/src/content/index.ts) · [Streaming & tool progress](https://github.com/owenawsong/Harbor/blob/main/src/sidepanel/hooks/useChat.ts)
+
+</details>
 
 ## Inflect · small models, complete speech
 
-**[Inflect](https://github.com/owenawsong/Inflect)** is my compact text-to-speech project. Nano fits the whole learned text-to-waveform path into **3.96M parameters**. Micro uses **9.36M**. Both make 24 kHz English speech locally, including the waveform decoder.
+**[Inflect](https://github.com/owenawsong/Inflect)** is my compact text-to-speech project. Nano fits the complete learned text-to-waveform path into **3.96M parameters**; Micro uses **9.36M**. Both generate 24 kHz English speech locally, including the waveform decoder.
 
-<a href="https://huggingface.co/spaces/owensong/Inflect-v2"><img src="assets/listening-room-1d13c33190b9.svg" width="100%" alt="Inflect v2 listening room. Nano: 3.96M parameters; Micro: 9.36M. Open the live demo to hear both. The animated waveform is decorative."></a>
+<a href="https://huggingface.co/spaces/owensong/Inflect-v2"><img src="assets/listening-room-1d13c33190b9.svg" width="100%" alt="Inflect v2 listening room. Nano: 3.96M parameters; Micro: 9.36M. Open the live demo to hear both. The rotating reels and animated waveform are decorative."></a>
 
-**[Try both voices →](https://huggingface.co/spaces/owensong/Inflect-v2)** &nbsp; · &nbsp; [Weights](https://huggingface.co/owensong) &nbsp; · &nbsp; [Code & results](https://github.com/owenawsong/Inflect)
+**[Try your own sentence →](https://huggingface.co/spaces/owensong/Inflect-v2)** &nbsp; · &nbsp; [Nano weights](https://huggingface.co/owensong/Inflect-Nano-v2) &nbsp; · &nbsp; [Micro weights](https://huggingface.co/owensong/Inflect-Micro-v2) &nbsp; · &nbsp; [Code & evaluation](https://github.com/owenawsong/Inflect)
 
 <details>
 <summary><b>Give the little one a difficult sentence.</b></summary>
@@ -34,44 +46,59 @@ Try one in the demo, or bring your own:
 
 > Wait—did you say fifteen, or fifty?
 
-The demo runs Nano and Micro on your text. These are challenge prompts, not claims that every reading is correct. If a sentence trips it up, [send the exact text](https://github.com/owenawsong/Inflect/issues/new).
+These are challenge prompts, not promises of a perfect reading. If something trips it up, [send the exact sentence](https://github.com/owenawsong/Inflect/issues/new).
 
 </details>
 
-### More from the model lab
+### Models are only part of the work
 
-- **[Synthetic speech data](https://huggingface.co/datasets/owensong/voxcpm2-synthetic-en-v1)** — **59,996 clips, 56 voices, ~112 hours** generated with VoxCPM2, with transcripts and generation metadata. Access terms are on the dataset card.
-- **[Chatterbox Nano → ONNX](https://huggingface.co/owensong/chatterbox-nano-ONNX)** — an independent four-graph conversion with mixed precision, INT4 weights, and KV-cache handling. Development release.
-- **[Inflect ONNX releases](https://huggingface.co/owensong/Inflect-Nano-v2-ONNX)** — local inference packages alongside the PyTorch models.
+- **[Synthetic speech data](https://huggingface.co/datasets/owensong/voxcpm2-synthetic-en-v1)** — **59,996 clips · 56 voices · ~112 hours**, generated with VoxCPM2. Transcripts and generation metadata are included; access terms are on the dataset card.
+- **[Chatterbox Nano → ONNX](https://huggingface.co/owensong/chatterbox-nano-ONNX)** — an independent four-graph conversion with mixed precision, INT4 weights and KV-cache handling. A development release.
+- **[Inflect ONNX](https://huggingface.co/owensong/Inflect-Nano-v2-ONNX)** — local inference packages for [Nano](https://huggingface.co/owensong/Inflect-Nano-v2-ONNX) and [Micro](https://huggingface.co/owensong/Inflect-Micro-v2-ONNX), alongside the PyTorch models.
 
 <details>
-<summary><b>Under the hood: architecture, evaluation, and runtime.</b></summary>
+<summary><b>Under the hood: architecture, evaluation and runtime.</b></summary>
 
-Inflect v2 uses a compact VITS-family architecture: transformer text encoding, stochastic duration prediction, residual coupling flows, and an integrated neural decoder. The parameter counts include all learned modules loaded for synthesis.
+Inflect v2 uses a compact VITS-family architecture: transformer text encoding, stochastic duration prediction, residual coupling flows and an integrated neural decoder. Parameter counts include all learned modules loaded for synthesis.
 
-The release reports community listening, multi-ASR intelligibility, predicted naturalness, footprint, and CPU throughput separately.
+The release reports community listening, multi-ASR intelligibility, predicted naturalness, model footprint and CPU throughput separately.
 
-[Architecture](https://github.com/owenawsong/Inflect/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/owenawsong/Inflect/blob/main/docs/EVALUATION.md) · [Deployment](https://github.com/owenawsong/Inflect/blob/main/docs/DEPLOYMENT.md) · [Micro ONNX](https://huggingface.co/owensong/Inflect-Micro-v2-ONNX)
+[Architecture](https://github.com/owenawsong/Inflect/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/owenawsong/Inflect/blob/main/docs/EVALUATION.md) · [Deployment](https://github.com/owenawsong/Inflect/blob/main/docs/DEPLOYMENT.md)
 
 </details>
 
-## Other things I've made
+## More things to explore
 
 <p>
-  <a href="https://github.com/owenawsong/Harbor"><img src="assets/harbor-card.svg" width="49%" alt="Harbor — a browser agent in a Chrome extension. Explore the source."></a>
-  <a href="https://liner-c7u.pages.dev/"><img src="assets/sleeve-card.svg" width="49%" alt="Sleeve — your listening history, in depth. Open the live app."></a>
+  <a href="https://liner-c7u.pages.dev/"><picture><source media="(max-width: 600px)" srcset="assets/sleeve-mobile-0f858643e55a.svg"><img src="assets/sleeve-showcase-a7d4ac79a476.svg" width="49%" alt="Sleeve — your taste has a history. Open the live music-history explorer."></picture></a>
+  <a href="https://owenawsong.github.io/Counterplot/"><picture><source media="(max-width: 600px)" srcset="assets/counterplot-mobile-4b5874568abe.svg"><img src="assets/counterplot-showcase-d70c88d163ba.svg" width="49%" alt="Counterplot — change an assumption, see why. Explore the live numerical experiments."></picture></a>
 </p>
 
-**[Harbor](https://github.com/owenawsong/Harbor)** — browser agents with visual and DOM context, browser tools, streaming progress, and your choice of model.
+**[Sleeve](https://github.com/owenawsong/liner)** — explore listening eras, lasting favorites, changes in taste and discoveries from your music history. Bring a Last.fm profile or imported listening files. **[Open the app →](https://liner-c7u.pages.dev/)**
 
-**[Sleeve](https://github.com/owenawsong/liner)** — a music-history explorer: listening eras, changing taste, discoveries, and a next record to try. **[Open it →](https://liner-c7u.pages.dev/)**
+**[Counterplot](https://github.com/owenawsong/Counterplot)** — run parameter studies, inspect classifier errors and compare scenarios with a baseline. Export an interactive experiment as **one HTML file** someone else can explore offline. **[Try the gallery →](https://owenawsong.github.io/Counterplot/)**
 
-Also: **[Mr. Tutor](https://github.com/owenawsong/mr-tutor-discord-bot)**, an AI tutoring bot for Discord.
+<p>
+  <a href="https://owenawsong.github.io/RareSpeech/"><picture><source media="(max-width: 600px)" srcset="assets/rarespeech-mobile-f05aa25784b7.svg"><img src="assets/rarespeech-showcase-072e43c4dfca.svg" width="49%" alt="RareSpeech — look closer at the uncommon word. Inspect the rare-term collection and original audio evidence."></picture></a>
+  <a href="https://github.com/owenawsong/discord-bot-kit"><picture><source media="(max-width: 600px)" srcset="assets/discord-kit-mobile-b1f55d663e2f.svg"><img src="assets/discord-kit-showcase-4282bb62436b.svg" width="49%" alt="discord-bot-kit — test the handlers, inspect the state. Explore the local development toolkit."></picture></a>
+</p>
+
+**[RareSpeech](https://github.com/owenawsong/RareSpeech)** — a research toolkit for **rare-term TTS evaluation beside WER**. Fixed specialist-word tracks, target-level alignment and original recordings let you inspect what an aggregate score misses. Automatic retention is an ASR proxy; pronunciation validation is ongoing. **[Inspect the evidence →](https://owenawsong.github.io/RareSpeech/)**
+
+**[discord-bot-kit](https://github.com/owenawsong/discord-bot-kit)** — build and test Discord bots locally. Run commands and components against the actual handlers, inspect state changes, and turn sessions into test scenarios. Includes recipes, **CLI + MCP tools** for coding agents. **[Try the ticket workflow →](https://github.com/owenawsong/discord-bot-kit#try-the-ticket-workflow)**
+
+Also: **[Mr. Tutor](https://github.com/owenawsong/mr-tutor-discord-bot)**, my AI tutoring bot for Discord.
+
+## What keeps me experimenting
+
+**Smaller models** — the tradeoffs between architecture, quality, inference cost and what can run locally.<br>
+**Better data & evaluation** — synthetic speech, coverage, and checking the failures an average hides.<br>
+**Models in real software** — runtime exports, quantization, browser inference and agents that use tools.
+
+Mostly **Python · PyTorch · ONNX Runtime · CUDA · TypeScript · React**.
 
 ---
 
-Mostly **Python, PyTorch, ONNX Runtime, CUDA, TypeScript, and React**.
-
-Tried something I've made? I'd like to hear how it went.  
-**[owen.aw.song@gmail.com](mailto:owen.aw.song@gmail.com)** · Discord **blue.os**
+Tried a model, found a strange failure, or built something with one of these? I'd like to hear about it.<br>
+**[owen.aw.song@gmail.com](mailto:owen.aw.song@gmail.com)** &nbsp; · &nbsp; Discord **blue.os**
 

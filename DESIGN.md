@@ -2,7 +2,7 @@
 
 ## Direction
 
-Owen chose a blend of an atmospheric blue night scene and a playful retro lab. The README presents machine learning first, gives visitors something real to try, and lets them open the engineering details.
+Owen chose a blend of an atmospheric blue night scene and a playful retro lab. The profile introduces a student developer with broad machine learning interests. Harbor and Inflect receive full feature sections, followed by four compact project showcases and optional engineering details.
 
 The illustrated room is fictional artwork, not a photograph of Owen's actual workspace. The cassette and animated waveform are decorative. Clicking the panel opens the existing live Inflect demo; the README does not run inference or play audio automatically.
 
@@ -39,6 +39,9 @@ Common problems to avoid: an oversized badge wall, invented job titles, copied m
 - [Chatterbox Nano ONNX model card](https://huggingface.co/owensong/chatterbox-nano-ONNX)
 - [Harbor](https://github.com/owenawsong/Harbor)
 - [Sleeve](https://github.com/owenawsong/liner)
+- [RareSpeech](https://github.com/owenawsong/RareSpeech)
+- [discord-bot-kit](https://github.com/owenawsong/discord-bot-kit)
+- [Counterplot](https://github.com/owenawsong/Counterplot)
 
 ## Artwork
 
@@ -74,3 +77,15 @@ GitHub's branch-based raw image URL was observed serving the previous SVG even w
 ## Profile composition update
 
 A visible "What I'm exploring" section explains the student's interests in model efficiency, training data, and deployment. Inflect's description now precedes its demo panel, separating that illustration from the identity banner. The listening panel uses a warm cream, green, and brown palette while preserving its reel and waveform animation. Its content-based filename prevents an earlier graphic from being served from cache. No additional projects, credentials, or qualifications are claimed.
+
+## October 2026 showcase
+
+- Harbor moves into the first featured project section. Its claims follow the public source: visual and DOM context, browser tools, provider choice and streaming progress. Private extension development features are not advertised here.
+- The new Harbor panel illustrates browser interaction, with a moving cursor, highlighted page region and sequenced agent steps. It is explicitly labeled a workflow illustration, not a screenshot, product recording or performance demonstration.
+- Inflect retains its warm listening-room panel and full model/data/runtime section. The header's pixel-art scene and existing reel animations remain intact.
+- Sleeve, Counterplot, RareSpeech and discord-bot-kit have distinct illustrated panels with practical descriptions and direct links. Numerical curves, highlighting and command flow are decorative; actual results live in their linked projects.
+- RareSpeech is described as a research toolkit, with automatic retention qualified as an ASR proxy. No validated pronunciation leaderboard is implied.
+- Phone-specific `picture` sources recompose the Harbor feature and project cards. Descriptions remain native Markdown for accessible, readable content on every screen.
+- New artwork is authored in `scripts/build_showcase.py` using SVG shapes, text and CSS animation. Run `python scripts/build_showcase.py` to rebuild all variants; filenames contain content hashes to avoid stale images. The script needs only the Python standard library. No AI-generated raster imagery, external widgets or remote fonts are used.
+
+Review the desktop and phone layouts, image loading, link destinations and reduced-motion behavior after an artwork change. A local preview is an approximation; the published GitHub profile is the final rendering check.
